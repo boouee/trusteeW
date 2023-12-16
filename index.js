@@ -2,7 +2,7 @@
  * @format
  * @lint-ignore-every XPLATJSCOPYRIGHT1
  */
-import './polyfills'
+import 'polyfills'
 import 'react-native-gesture-handler'
 
 import { AppRegistry } from 'react-native'
