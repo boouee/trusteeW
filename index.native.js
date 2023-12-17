@@ -6,10 +6,10 @@ import 'polyfills'
 import 'react-native-gesture-handler'
 
 import { AppRegistry } from 'react-native'
-import './shim.js'
-import './global'
-import App from './src/App'
-import { name as appName } from './src/app.json'
+//import './shim.js'
+//import './global'
+//import App from './src/App'
+//import { name as appName } from './src/app.json'
 
 import PushNotification from 'react-native-push-notification'
 
@@ -27,5 +27,5 @@ PushNotification.configure({
 
 
 // @deprecated BackgroundFetch.registerHeadlessTask(BackgroundDaemon.taskToRegister)
-AppRegistry.registerComponent(appName, () => App)
+//AppRegistry.registerComponent(appName, () => App)
 
