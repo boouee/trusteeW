@@ -17,6 +17,7 @@
     "update-pods": "cd ios && pod install --repo-update && cd .. "
   },
   "dependencies": {
+    "babel-plugin-react-native-web": "0.19.9",
     "react-dom": "18.2.0",
     "react-native-web": "0.19.9",
     "@fioprotocol/fiojs": "^1.0.1",
