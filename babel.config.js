@@ -4,7 +4,8 @@ const ModuleResolverPlugin = ['module-resolver', {
         '@app': './app',
         '@appV2' : './appV2',
         '@assets' : './assets',
-        '@crypto': './crypto'
+        '@crypto': './crypto',
+        "^react-native$": "react-native-web"
     },
 }];
 
