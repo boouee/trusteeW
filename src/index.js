@@ -4,7 +4,7 @@
  * @format
  * @lint-ignore-every XPLATJSCOPYRIGHT1
  */
-import 'polyfills'
+/*import 'polyfills'
 import 'react-native-gesture-handler'
 
 import { AppRegistry } from 'react-native'
@@ -30,4 +30,9 @@ PushNotification.configure({
 
 // @deprecated BackgroundFetch.registerHeadlessTask(BackgroundDaemon.taskToRegister)
 AppRegistry.registerComponent(appName, () => App)
+AppRegistry.runApplication('App', {rootTag: document.getElementById('root')});*/
+import {AppRegistry} from 'react-native';
+import App from './App';
+ 
+AppRegistry.registerComponent('App', () => App);
 AppRegistry.runApplication('App', {rootTag: document.getElementById('root')});
