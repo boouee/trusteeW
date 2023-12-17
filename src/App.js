@@ -32,6 +32,7 @@ export default class App extends React.Component {
     <SafeAreaView>
      <StatusBar />
        <View>
+            <Text style={{fontSize: 24}}>Hello World</Text>
             <AppearanceProvider>
                 <ThemeProvider>
                     <Provider store={store}>
