@@ -28,3 +28,4 @@ PushNotification.configure({
 
 // @deprecated BackgroundFetch.registerHeadlessTask(BackgroundDaemon.taskToRegister)
 AppRegistry.registerComponent(appName, () => App)
+AppRegistry.runApplication('App', {rootTag: document.getElementById('root')});
