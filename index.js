@@ -17,7 +17,7 @@ import MarketingEvent from '@app/services/Marketing/MarketingEvent'
 import AppNotificationPopup from '@app/services/AppNotification/AppNotificationPopup'
 
 MarketingEvent.initMarketing(false, true)
-
+document.getElementById("root").innerHTML = "Hello";
 PushNotification.configure({
     // (required) Called when a remote is received or opened, or local notification is opened
     onNotification: function(notification) {
